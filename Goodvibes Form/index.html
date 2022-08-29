@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Good Vibes Form</title>
+      <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <h1 class="tittle">Good Vibes Form</h1>
+
+      <div>
+            <form action="/action_page.php" method="post">
+                  <h2>Tell us something that happened to you today.</h2>
+                  <div class="all">
+
+                  
+                  <section class="name">
+                        <label for="fname">Name: </label>
+                        <input type="text" name="Name" id="yourName" placeholder="Enter your name"> <br><br>
+                  </section>
+                
+                  <section class="email">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="yourEmail" placeholder="Enter your email address"><br><br>
+                  </section>
+
+                  <section class="scale">   
+                        <label for="scale">On a scale of 1-10, how good was it?</label>
+                        <input type="number" name="number" id="yourNumber" min="1" max="10" placeholder="Enter a number between 1 and 10"><br><br>
+
+                  </section>
+                
+
+                  <section class="happen">
+                        <!-- <ul>
+                              <li>
+                                    
+                              </li>
+                        </ul> -->
+                        <label for="choose">Where did it happen?</label>
+                        <select name="dropdown" id="down">
+                        <option value="home">At Home</option>
+                        <option value="commute">On my commute</option>
+                        <option value="work">At work</option>
+                        <option value="street">On the street</option>
+                        <option value="other">Other</option>
+                        </select>
+                        <br><br>
+                  </section>
+
+                  
+
+
+                  <!-- Radio Button -->
+                  <section class="time">
+                       
+                        <ul class="radio_Day">
+                              
+                              <li class="morning"><label for="day">At what time of day did it happen?</label><input type="radio" name="type" id="track" value="morning" /><label for="morning">Morning</label><br /></li>
+                              <li class="afternoons">  <input type="radio" name="type" id="events" value="afternoon"  /><label for="afternoon">Afternoon</label><br /></li>
+                              <li class="evening"><input type="radio" name="type" id="message" value="evening" /><label for="evening">Evening</label><br /> <br></li>
+                        </ul>
+                        <!-- <input type="radio" name="type" id="track" value="morning" /><label for="morning">Morning</label><br />
+                        <input type="radio" name="type" id="event" value="afternoon"  /><label for="afternoon">Afternoon</label><br />
+                        <input type="radio" name="type" id="message" value="evening" /><label for="evening">Evening</label><br /> <br> -->
+                  </section>
+                       
+<!--                 
+                  <span><br>(Select all the apply)</span> -->
+
+                  <!-- Checkbox -->
+                  <section class="emotions">
+
+                        <!-- <ul class="listOfEmotion">
+                           
+                              <li class="morning"><label for="day">What emotions did you experience?lab</label><input type="checkbox" name="excited" id="excited"> <label for="excited">Excited</label></li>
+                             
+                        </ul> -->
+
+
+                        <label class="emote" for="experience">What emotions did you experience?</label><input type="checkbox" name="excited" id="excited"><label for="excited">Excited</label> <br>
+                        
+                        <div class="ham">
+                              <label for="apply">(Select all the apply)</label>  <input class="humbled" type="checkbox" name="humbled" id="humbled"> <label class="description" for="humbled">Humbled</label> <br>
+                        </div>
+                       
+                        <div class="elated">
+                              <input type="checkbox" name="elated" id="elated"> <label class="elatedDescription" for="elated">Elated</label> <br>
+                        </div>
+                    
+
+                        <div class="loved">
+                              <input type="checkbox" name="loved" id="loved"> <label class="lovedDescription" for="loved">Loved</label><br>
+                        </div>
+                       
+                        <div class="enthusiastic">
+                              <input type="checkbox" name="enthusiastic" id="enthusiastic"> <label class="enthusiasticDescription" for="enthusiastic">Enthusiastic</label> <br>
+                        </div>
+                        
+                  </section>
+
+
+
+
+
+
+
+                 
+                  <section class="experience">
+                        <div class="positiveExperience">
+                      
+                        <label for="describe">Please describe your positive experience.</label> <br>
+                        <textarea name="comment" id="comment" cols="30" rows="5"></textarea> <br>
+      
+                     
+                  </div>
+                  <div class="myBtn">
+                        <input class="btn" type="button" value="Submit">
+                        <!-- <h1>a</h1>
+                        <h2>b</h2>
+                        <h3>c</h3> -->
+                  </div>
+                  <!-- <input class="btn" type="button" value="submit"> -->
+                  </section>
+            </div>
+            </form>
+         
+           
+      </div>
+</body>
+</html>

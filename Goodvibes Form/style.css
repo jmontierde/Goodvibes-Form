@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+      background-color: rgb(106, 189, 238);
+      text-align: center;
+      font-size: 1rem;
+}
+
+
+form {
+   
+     
+     margin: auto;
+     width: 800px;
+     background-color: #f3f3f3;
+     border-radius: 10px;
+     padding: 20px 10px 20px 10px;
+     position: static;
+     display: block;
+    
+}
+
+h1{
+      font-size: 45px;
+}
+h2, h1 {
+      text-align: center;
+}
+
+.all {
+      padding-left: 50px;
+}
+
+/* Name */
+.name {
+      text-align: center;
+}
+
+.scale {
+      padding-right: 197px;
+      /* margin: 10px; */
+}
+
+label {
+      display: inline;
+      text-align: right;
+      width: 40%;
+      padding: 5px;
+}
+
+#yourName, #yourEmail, #yourNumber{
+     height: 22px;
+     width: 250px;
+}
+#down {
+      height: 35px;
+      
+}
+.happen {
+      padding-right: 230px;
+      position: relative;
+}
+
+.radio_Day{
+      list-style: none;
+      display: inline-block;
+      text-align: right;      
+      margin-right: 40%;
+      
+      
+}
+
+.afternoons {
+
+      position: relative;
+      left: 10px;
+      margin-left: 10px;
+    
+}
+
+.evening {
+      position: relative;
+      right: 3px;
+}
+.time {
+      margin-right: 150px;
+      position: relative;
+}
+
+
+
+.emotions {
+    margin-right: 49%;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+
+}
+
+.ham{
+      left: 15px;
+      position: relative;
+}
+.description{
+      position: relative;
+      right: 5px;
+}
+
+.elated {
+      position: relative;
+      right: 3px;
+}
+.elatedDescription{
+      right: 5px;
+      position: relative;
+}
+
+.loved{
+      position: relative;
+      right: 3px;
+}
+.lovedDescription{
+      position: relative;
+      right: 3px;
+}
+
+.enthusiastic{
+      position: relative;
+      left: 35px;
+}
+
+.enthusiasticDescription{
+      position: relative;
+      right: 5px;
+}
+
+.positiveExperience {
+      display: flex;
+      padding-top: 50px;
+      padding-right: 90px;
+}
+
+
+textarea{
+      position: relative;
+      bottom: 30px; 
+}
+
+.btn{ 
+
+      font-size: 1em;
+      background-color: #6ba2ce;
+      color: white;
+      border: 0px solid;
+      border-radius: 4px;
+      height: 40px;
+      width: 100px;
+      margin: 10px;
+}
